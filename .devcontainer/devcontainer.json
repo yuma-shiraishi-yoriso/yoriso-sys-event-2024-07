@@ -7,5 +7,6 @@
   },
   "extensions": [
     "vue.volar"
-  ]
+  ],
+  "postCreateCommand": "code ${containerWorkspaceFolder}/app.code-workspace"
 }
