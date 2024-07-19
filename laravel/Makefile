@@ -1,6 +1,6 @@
 .PHONY: setup
 setup:
-	composer install \
+	docker exec -it laravel-laravel.test-1 composer install \
         && cp .env.example .env \
         && ./vendor/bin/sail up -d \
         && ./vendor/bin/sail artisan key:generate \
