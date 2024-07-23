@@ -17,9 +17,9 @@ down:
 
 .PHONY: mysql
 mysql:
-	docker exec -it laravel-mysql-1 mysql -usail -ppassword
+	docker exec -it backend-mysql-1 mysql -usail -ppassword
 
 .PHONY: fpm
 fpm:
-	docker exec -it laravel-laravel.test-1 bash
+	docker exec -it backend-laravel.test-1 bash
 
