@@ -5,11 +5,11 @@
             "name": "root",
         },
         {
-            "path": "nuxt",
+            "path": "frontend",
             "name": "frontend"
         },
         {
-            "path": "laravel",
+            "path": "backend",
             "name": "backend"
         }
     ]
