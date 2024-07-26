@@ -8,5 +8,12 @@
   "extensions": [
     "vue.volar"
   ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
+  },
   "postCreateCommand": "code ${containerWorkspaceFolder}/app.code-workspace"
 }
